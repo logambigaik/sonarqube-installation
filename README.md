@@ -1,15 +1,14 @@
 ## sonarqube-installation
 
 ## Step 1: Update the server
-	  sudo yum update -y
+    sudo yum update -y
 ## Step 2: Install java 8
-	  sudo yum install java-1.8.0-openjdk-devel -y
+    sudo yum install java-1.8.0-openjdk-devel -y
 ## Step 3: Login as root and execute the following commands
-	  sysctl vm.max_map_count
-	  sysctl fs.file-max
-	  ulimit -n
-	  ulimit -u
-
+    sysctl vm.max_map_count
+    sysctl fs.file-max
+    ulimit -n
+    ulimit -u
 ## Setup PostgreSQL 10 Database For SonarQube
     amazon-linux-extras install postgresql10 vim epel -y
     yum install -y postgresql-server postgresql-devel
