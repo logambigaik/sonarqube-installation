@@ -48,6 +48,9 @@ Exit the psql prompt using the following command
 Switch to your sudo user using the exit command
 	  
     exit
+    
+![Capture](https://user-images.githubusercontent.com/54719289/105094220-f9c07c80-5ac9-11eb-93cb-908f64554277.JPG)
+    
 
 ## Setup Sonarqube Web Server
 Download the latest sonarqube installation file to /opt folder. You can get the latest download link from here. http://www.sonarqube.org/downloads/
